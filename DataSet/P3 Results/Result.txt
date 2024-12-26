@@ -97,3 +97,61 @@ Epoch 32/35 - Train Loss: 0.7847, Train Accuracy: 0.9635 - Validation Loss: 1.14
 Epoch 33/35 - Train Loss: 0.8044, Train Accuracy: 0.9600 - Validation Loss: 1.0366, Validation Accuracy: 0.9133, Learning Rate: 9e-07
 Epoch 34/35 - Train Loss: 0.8351, Train Accuracy: 0.9576 - Validation Loss: 1.0209, Validation Accuracy: 0.9143, Learning Rate: 9e-07
 Epoch 35/35 - Train Loss: 0.8960, Train Accuracy: 0.9490 - Validation Loss: 0.9810, Validation Accuracy: 0.9051, Learning Rate: 9e-07
+
+
+
+
+
+Folder p2 Augment
+p=====2
+
+[[5 5]
+ [4 6]]   mytest
+
+[[10  0]
+ [ 1  9]] test_2
+
+[[7 3]
+ [6 4]]   test_3
+
+
+margin = 4.0 lr = 0.00001  epochs = 35  just some augmentation were applied transforms.RandomHorizontalFlip(),transforms.RandomRotation(15)
+
+Epoch 1/35 - Train Loss: 3.0201, Train Accuracy: 0.6779 - Validation Loss: 2.3592, Validation Accuracy: 0.7387, Learning Rate: 1e-05
+Epoch 2/35 - Train Loss: 2.5860, Train Accuracy: 0.7292 - Validation Loss: 2.0708, Validation Accuracy: 0.7724, Learning Rate: 1e-05
+Epoch 3/35 - Train Loss: 2.3791, Train Accuracy: 0.7553 - Validation Loss: 1.9097, Validation Accuracy: 0.7854, Learning Rate: 1e-05
+Epoch 4/35 - Train Loss: 2.2012, Train Accuracy: 0.7812 - Validation Loss: 1.8540, Validation Accuracy: 0.7940, Learning Rate: 1e-05
+Epoch 5/35 - Train Loss: 2.1040, Train Accuracy: 0.7948 - Validation Loss: 1.8590, Validation Accuracy: 0.7921, Learning Rate: 1e-05
+Epoch 6/35 - Train Loss: 1.9838, Train Accuracy: 0.8127 - Validation Loss: 1.7987, Validation Accuracy: 0.8066, Learning Rate: 1e-05
+Epoch 7/35 - Train Loss: 1.8698, Train Accuracy: 0.8330 - Validation Loss: 1.7532, Validation Accuracy: 0.8166, Learning Rate: 1e-05
+Epoch 8/35 - Train Loss: 1.7768, Train Accuracy: 0.8496 - Validation Loss: 1.9119, Validation Accuracy: 0.8043, Learning Rate: 1e-05
+Epoch 9/35 - Train Loss: 1.6467, Train Accuracy: 0.8702 - Validation Loss: 1.8638, Validation Accuracy: 0.8141, Learning Rate: 1e-05
+Epoch 10/35 - Train Loss: 1.5411, Train Accuracy: 0.8870 - Validation Loss: 1.8968, Validation Accuracy: 0.8112, Learning Rate: 3e-06
+Epoch 11/35 - Train Loss: 1.4236, Train Accuracy: 0.9006 - Validation Loss: 1.8505, Validation Accuracy: 0.8114, Learning Rate: 3e-06
+Epoch 12/35 - Train Loss: 1.3781, Train Accuracy: 0.9096 - Validation Loss: 1.9091, Validation Accuracy: 0.8161, Learning Rate: 3e-06
+Epoch 13/35 - Train Loss: 1.3617, Train Accuracy: 0.9156 - Validation Loss: 1.8576, Validation Accuracy: 0.8250, Learning Rate: 9e-07
+Epoch 14/35 - Train Loss: 1.3074, Train Accuracy: 0.9219 - Validation Loss: 1.8853, Validation Accuracy: 0.8152, Learning Rate: 9e-07
+Epoch 15/35 - Train Loss: 1.2669, Train Accuracy: 0.9257 - Validation Loss: 1.8386, Validation Accuracy: 0.8221, Learning Rate: 9e-07
+Epoch 16/35 - Train Loss: 1.2681, Train Accuracy: 0.9265 - Validation Loss: 1.7869, Validation Accuracy: 0.8359, Learning Rate: 2.6999999999999996e-07
+Epoch 17/35 - Train Loss: 1.2641, Train Accuracy: 0.9306 - Validation Loss: 1.6665, Validation Accuracy: 0.8387, Learning Rate: 2.6999999999999996e-07
+Epoch 18/35 - Train Loss: 1.2278, Train Accuracy: 0.9348 - Validation Loss: 1.7151, Validation Accuracy: 0.8389, Learning Rate: 2.6999999999999996e-07
+Epoch 19/35 - Train Loss: 1.2304, Train Accuracy: 0.9327 - Validation Loss: 1.7194, Validation Accuracy: 0.8408, Learning Rate: 2.6999999999999996e-07
+Epoch 20/35 - Train Loss: 1.2302, Train Accuracy: 0.9337 - Validation Loss: 1.6538, Validation Accuracy: 0.8470, Learning Rate: 2.6999999999999996e-07
+Epoch 21/35 - Train Loss: 1.2354, Train Accuracy: 0.9333 - Validation Loss: 1.8588, Validation Accuracy: 0.8087, Learning Rate: 2.6999999999999996e-07
+Epoch 22/35 - Train Loss: 1.2941, Train Accuracy: 0.9227 - Validation Loss: 1.8132, Validation Accuracy: 0.8130, Learning Rate: 2.6999999999999996e-07
+Epoch 23/35 - Train Loss: 1.2907, Train Accuracy: 0.9235 - Validation Loss: 1.8436, Validation Accuracy: 0.8076, Learning Rate: 8.099999999999998e-08
+Epoch 24/35 - Train Loss: 1.2665, Train Accuracy: 0.9264 - Validation Loss: 1.7111, Validation Accuracy: 0.8246, Learning Rate: 8.099999999999998e-08
+Epoch 25/35 - Train Loss: 1.2618, Train Accuracy: 0.9280 - Validation Loss: 1.5516, Validation Accuracy: 0.8478, Learning Rate: 8.099999999999998e-08
+Epoch 26/35 - Train Loss: 1.3145, Train Accuracy: 0.9195 - Validation Loss: 1.5506, Validation Accuracy: 0.8397, Learning Rate: 8.099999999999998e-08
+Epoch 27/35 - Train Loss: 1.2853, Train Accuracy: 0.9243 - Validation Loss: 1.4755, Validation Accuracy: 0.8604, Learning Rate: 8.099999999999998e-08
+Epoch 28/35 - Train Loss: 1.2638, Train Accuracy: 0.9271 - Validation Loss: 1.4391, Validation Accuracy: 0.8699, Learning Rate: 8.099999999999998e-08
+Epoch 29/35 - Train Loss: 1.3040, Train Accuracy: 0.9231 - Validation Loss: 1.3668, Validation Accuracy: 0.8749, Learning Rate: 8.099999999999998e-08
+Epoch 30/35 - Train Loss: 1.3426, Train Accuracy: 0.9159 - Validation Loss: 1.3549, Validation Accuracy: 0.8723, Learning Rate: 8.099999999999998e-08
+Epoch 31/35 - Train Loss: 1.3318, Train Accuracy: 0.9163 - Validation Loss: 1.2968, Validation Accuracy: 0.8827, Learning Rate: 8.099999999999998e-08
+Epoch 32/35 - Train Loss: 1.3390, Train Accuracy: 0.9180 - Validation Loss: 1.2378, Validation Accuracy: 0.8836, Learning Rate: 8.099999999999998e-08
+Epoch 33/35 - Train Loss: 1.3952, Train Accuracy: 0.9104 - Validation Loss: 1.2040, Validation Accuracy: 0.8825, Learning Rate: 8.099999999999998e-08
+Epoch 34/35 - Train Loss: 1.4520, Train Accuracy: 0.9009 - Validation Loss: 1.2448, Validation Accuracy: 0.8741, Learning Rate: 8.099999999999998e-08
+Epoch 35/35 - Train Loss: 1.4490, Train Accuracy: 0.9025 - Validation Loss: 1.2877, Validation Accuracy: 0.8661, Learning Rate: 8.099999999999998e-08
+
+
+
